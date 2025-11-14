@@ -1,1 +1,7 @@
-data/
+# csv files
+captor_1_sample_1.csv
+captor_1_sample_2_with_manual_validation.csv
+captor_2_with_null.csv
+captor_3_todo.csv
+
+__pycache__/

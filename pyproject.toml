@@ -6,4 +6,13 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "pandas>=2.3.3",
+    "questionary>=2.1.1",
+    "seaborn>=0.13.2",
 ]
+
+[tool.basedpyright]
+typeCheckingMode = "basic"
+reportUnknownVariableType = false
+reportUnknownMemberType = false
+reportUnknownParameterType = false
+useLibraryCodeForTypes = true
